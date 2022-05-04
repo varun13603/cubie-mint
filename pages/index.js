@@ -16,7 +16,7 @@ export default function Mints() {
 
   const [TronWeb, setTronWeb] = useState(null);
   const [contract, setContract] = useState(null)
-  const CONTRACT_ADDRESS = 'TQFM2CJA5x3JxnJRLSJVCwo9nch1bbbeEG' 
+  const CONTRACT_ADDRESS = 'TK3QBQA9ZzPUtyyf33Ls224tCaibekTJcz' 
   //'TJ3ZpFJJsdhqubCmn3G8pJ3SDta7huMoVd'
   //'TKQ9tmuCJP6Ed988bqHUHmZmQRUhmujaY6' 
   //'TH48JDDW8hbC35jdfBccZBnhWbmYvfGc36'
