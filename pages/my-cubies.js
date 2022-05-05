@@ -9,7 +9,7 @@ export default function Accounts() {
   const [userAddress, setUserAddress] = useState('Wallet not connected')
   const [cubies, setCubies] = useState([]);
 
-  const CONTRACT_ADDRESS = 'TK3QBQA9ZzPUtyyf33Ls224tCaibekTJcz'
+  const CONTRACT_ADDRESS = 'TWTNYfVbUKwwDzaSFjMAKpPo76wfRGT8Yi'
 
   useEffect(() => {
     const interval = setInterval(async () => {
