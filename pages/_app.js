@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
             <img src='/website.png' alt='Website' />
           </a>
           <a href='https://t.me/CubieNFT' target='_blank' rel="noopener noreferrer">
-            <img src='/' alt='Telegram' />
+            <img src='/icons8-telegram-app.gif' alt='Telegram' />
           </a>
         </div>
         <div className='copyright'>Copyright</div>
