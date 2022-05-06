@@ -125,7 +125,7 @@ export default function Mints() {
           </Col>
           <Col md={6} className='verticalCenter'>
             <p><strong>Price</strong></p>
-            <h5>{trxIcon} 3000 TRX Each</h5>
+            <h5><strong>{trxIcon} 3000 TRX Each</strong></h5>
           </Col>
         </Row>
       </Card>
