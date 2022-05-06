@@ -115,7 +115,7 @@ export default function Mints() {
 
       <div className="Banner">
         <h2>Mint Cubie</h2>
-        <p>Enter how many Cubies you would like to mint</p>
+        <h3>Enter how many Cubies you would like to mint</h3>
       </div>
 
       <Card className='priceDisplay card-body'>
