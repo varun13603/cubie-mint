@@ -140,7 +140,7 @@ export default function Mints() {
         </Row>
       </Card>
       <Col className='totalDisplay'>
-        Total Price: <h5>{mintAmmount * 3000} TRX {trxIcon} </h5>
+        Total Price: <h5><strong>{mintAmmount * 3000} TRX {trxIcon} </strong></h5>
       </Col>
       <Col> <p className='text-center' >{err}</p> </Col>
       <Col>{contract ? <Button block onClick={() => mint()} disabled={mintBtnStat} > {walletStatus} </Button> : <Button block onClick={() => extension()}> {walletStatus} </Button>} </Col>
