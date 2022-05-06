@@ -124,7 +124,7 @@ export default function Mints() {
             <CardImg src='/Mint_Cubie.gif' alt='Cubie Display' autoPlay={true} loop={true} />
           </Col>
           <Col md={6} className='verticalCenter'>
-            <p>Price</p>
+            <p><strong>Price</strong></p>
             <h5>{trxIcon} 3000 TRX Each</h5>
           </Col>
         </Row>
