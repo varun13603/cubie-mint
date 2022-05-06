@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
             <img src='/icons8-twitter.gif' alt='Twitter' />
           </a>
           <a href='https://www.cubie.art' target='_blank' rel="noopener noreferrer">
-            <img src='/website.png' alt='Website' />
+            <img src='/icons8-geography.gif' alt='Website' />
           </a>
           <a href='https://t.me/CubieNFT' target='_blank' rel="noopener noreferrer">
             <img src='/icons8-telegram-app.gif' alt='Telegram' />
