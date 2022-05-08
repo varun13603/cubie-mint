@@ -62,7 +62,7 @@ export default function Accounts() {
               <Card>
                 <CardImg src={cubie.image} alt='Cubie Display' />
                 <CardBody>
-                  <h5>{cubie.name}</h5>
+                  <h5><strong>{cubie.name}</strong></h5>
                   <p>⛏️Power:  {cubie.power} || {cubie.rarity} </p>
                 </CardBody>
               </Card>
