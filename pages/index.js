@@ -114,7 +114,7 @@ export default function Mints() {
       </div>
 
       <div className="Banner">
-        <h2>𝐌𝐢𝐧𝐭 𝐂𝐮𝐛𝐢𝐞</h2>
+        <h2>Mint Cubie</h2>
         <p><strong>Enter how many Cubies you would like to mint</strong></p>
       </div>
 
@@ -140,7 +140,7 @@ export default function Mints() {
         </Row>
       </Card>
       <Col className='totalDisplay'>
-        Total Price: <h5><strong>{mintAmmount * 3000} TRX {trxIcon} </strong></h5>
+        <p><strong>Total Price:</strong></p> <h5><strong>{mintAmmount * 3000} TRX {trxIcon} </strong></h5>
       </Col>
       <Col> <p className='text-center' >{err}</p> </Col>
       <Col>{contract ? <Button block onClick={() => mint()} disabled={mintBtnStat} > {walletStatus} </Button> : <Button block onClick={() => extension()}> {walletStatus} </Button>} </Col>
