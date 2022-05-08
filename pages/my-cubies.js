@@ -45,7 +45,7 @@ export default function Accounts() {
   return (
     <div >
       <Head>
-        <title>Cubies - Breed</title>
+        <title>Cubies - My Cubies</title>
         <meta name="description" content="Start your journey in our metaverse by acquiring your first Cubie NFT, breeding it, and playing with him in one of our games." />
         <link rel="icon" href="/favicon.png" />
       </Head>
