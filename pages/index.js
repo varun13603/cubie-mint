@@ -107,11 +107,11 @@ export default function Mints() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <div className='marque mb-3 '>
+      {/* <div className='marque mb-3 '>
         <marquee>
           {'\u26A1'}{'\u26A1'} {'\u2728'} Minting is live {'\u2728'}{'\u26A1'}{'\u26A1'} 
         </marquee>
-      </div>
+      </div> */}
 
       <div className="Banner">
         <h2>Mint Cubie</h2>
@@ -123,7 +123,7 @@ export default function Mints() {
           <Col md={6}>
             <CardImg src='/Mint_Cubie.gif' alt='Cubie Display' autoPlay={true} loop={true} />
           </Col>
-          <Col md={6} className='verticalCenter'>
+          <Col md={6} className='verticalCenter' id='mint'>
             <p><strong>Price</strong></p>
             <h5><strong>{trxIcon} 3000 TRX Each</strong></h5>
           </Col>
