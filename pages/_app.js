@@ -96,7 +96,7 @@ function MyApp({ Component, pageProps }) {
               <img src='/icons8-telegram-app.gif' alt='Telegram' />
             </a>
           </div>
-          <div className='copyright'><strong>©</strong></div>
+          <div className='copyright'><strong></strong></div>
         </div>
       </div>
     </div>
