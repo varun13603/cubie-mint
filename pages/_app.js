@@ -61,7 +61,7 @@ function MyApp({ Component, pageProps }) {
                 Start your journey in our metaverse by acquiring your first Cubie NFT, breeding it, and playing with him in one of our games.
               </p>
               <div className='py-3'>
-                <a className='btn btn-light myCubiesBtn' href='#mint'>
+                <a className='btn btn-light myCubiesBtn' href='https://mint.cubie.art/'>
                   Mint Now
                 </a>
               </div>
@@ -96,7 +96,7 @@ function MyApp({ Component, pageProps }) {
               <img src='/icons8-telegram-app.gif' alt='Telegram' />
             </a>
           </div>
-          <div className='copyright'>Copyright</div>
+          <div className='copyright'><strong></strong></div>
         </div>
       </div>
     </div>
